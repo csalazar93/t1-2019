@@ -8,12 +8,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DatePipe } from '@angular/common';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NoticiaListComponent } from './components/noticia-list/noticia-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    NoticiaListComponent
   ],
   imports: [
     BrowserModule,
